@@ -28,19 +28,19 @@ body {
 .nav__brand {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: .6rem;
 }
 
 .nav__brand img {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
+  width: 44px;
+  height: auto;
+  border-radius: 8px;
 }
 
 .brand-name {
   font-weight: 700;
   color: var(--accent);
-  font-size: 1.2rem;
+  font-size: 1.15rem;
 }
 
 .nav__links {

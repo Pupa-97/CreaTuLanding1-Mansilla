@@ -1,11 +1,11 @@
 import CartWidget from "./CartWidget.jsx";
+import logo from "../assets/logo-checkmate.jpg";
 
 function NavBar() {
   return (
     <header className="nav">
       <div className="nav__brand">
-        {/* Reemplazá por tu logo si querés */}
-        <img src="https://i.ibb.co/Vq1CwzZ/checkmate-logo.png" alt="logo" />
+        <img src={logo} alt="logo Checkmate" />
         <span className="brand-name">Checkmate</span>
       </div>
 
