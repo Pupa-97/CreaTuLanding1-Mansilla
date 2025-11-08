@@ -1,0 +1,115 @@
+:root {
+  --bg: #0f0f12;
+  --card: #191a1f;
+  --text: #f4f4f5;
+  --muted: #a1a1aa;
+  --accent: #e11d48;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 16px 24px;
+  background: var(--card);
+  border-bottom: 1px solid #26272e;
+  position: sticky;
+  top: 0;
+}
+
+.nav__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav__brand img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.brand-name {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 1.2rem;
+}
+
+.nav__links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav__links a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.nav__links a:hover {
+  color: var(--accent);
+}
+
+.cart {
+  position: relative;
+  border: none;
+  background: var(--accent);
+  color: white;
+  padding: 0.6rem 0.8rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.cart__badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: white;
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 999px;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.hero__title {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.hero__subtitle {
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #f03b65;
+}
